@@ -1,0 +1,26 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+[data-bs-theme="light"] .themed-box {
+  background-color: var(--bs-light);
+  color: var(--bs-dark);
+}
+
+[data-bs-theme="dark"] .themed-box {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+@media (min-width: 768px) {
+  .r-row{
+    text-align: right;
+  }
+}
+
+@media (min-width: 993px) {
+  .w-lg-25{
+    width: 80% !important;
+  }
+}
+
