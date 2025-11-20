@@ -296,10 +296,10 @@
                 </section>
 
                 <section class="py-5">
-                  <h2 class="fw-normal fs-3">Projects </h2>
+                  <h2 class="fw-normal fs-3">My Creative Builds </h2>
 
-                  <div class="border rounded-1">
-                    <div class="row g-0 bg-light position-relative">
+                  <div class="border rounded-3">
+                    <div class="row g-0 position-relative">
                       <div class="col-md-6 mb-md-0 p-md-4">
                         <img src="Images/eskulayout.png" class="w-100" alt="...">
                       </div>
@@ -331,23 +331,33 @@
 
               <!-- Blogs Container -->
               <div id="blogs" class="page-container d-none">
-                <h2 class="fs-3 fw-normal">Blogs Page</h2>
-                <div class="container mt-5">
+                <h2 class="fs-3 fw-normal">My Thoughts and Insights</h2>
+                <div class="container mt-3">
                   <div class="row justify-content-center">
-                    <div class="col-md-6">
+                    <div >
+
                       <!-- Blog Card -->
-                      <div class="card shadow-sm">
-                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Blog Image">
-                        <div class="card-body">
-                          <h5 class="card-title">My Blog Title</h5>
+                      <div class="d-flex position-relative">
+                        <img src="Images/ArduinoActivity.jpg" class="flex-shrink-0 me-3" alt="Blog Image" style="width: 200px; height: auto; object-fit: cover;">
+                        <div>
+                          <h5 class="card-title">How I Faced My Fear of Arduino—and What Happened Next</h5>
+                          <div class="my-2">
+                          <span class="badge border border-primary text-primary text-center rounded-pill mr-2 px-3 fw-normal">
+                            Self-study challenges
+                          </span>
+                          <span class="badge border border-primary text-primary text-center rounded-pill mr-2 px-3 fw-normal">
+                            Learning Arduino UNO
+                          </span>
+                        </div>
                           <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna sed leo tempus, sit amet...
+                            Starting something you know nothing about can feel scary, especially when everyone around you seems ahead. But sometimes, one small step—even a shaky...
                           </p>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogModal">
+                          <button type="button" class="btn btn-primary px-5 " data-bs-toggle="modal" data-bs-target="#blogModal">
                             View Blog
                           </button>
                         </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -357,23 +367,59 @@
                   <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="blogModalLabel">My Blog Title</h5>
+                        <h5 class="modal-title" id="blogModalLabel">How I Faced My Fear of Arduino—and What Happened Next</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <img src="https://via.placeholder.com/800x400" class="img-fluid mb-3" alt="Blog Image">
+                        <img src="Images/ArduinoActivity.jpg" class="img-fluid mb-3" alt="Blog Image">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur interdum, 
-                          nisl nisi sollicitudin nibh, non facilisis enim lectus a nisi. Sed lacinia metus at ligula elementum, 
-                          vitae consequat nisl hendrerit. Morbi faucibus purus in libero fermentum, nec bibendum arcu tristique.
+                          Starting something you know nothing about can feel scary, especially when everyone around you seems ahead. But sometimes, one small step—even a shaky one—can change how you see yourself. 🙂
                         </p>
                         <p>
-                          Additional content goes here. You can put your entire blog post in this modal. 
-                          Make sure to use paragraphs and images to make it look nice.
+                          I’m now a second-year student at NU, but back in senior high, I was a TVL-ICT student who focused only on web development. Because of that, I barely knew anything about embedded systems. The idea of working with wires, sensors, resistors, and boards honestly scared me. Coding was fine—but coding with hardware felt like a whole different world.
                         </p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Exit</button>
+                        <p>
+                          My friends already had experiences with Arduino. They talked about their old projects, shared stories about how they built things, and I remember thinking, “Wow, they’re so smart. Will I ever understand that?” Their confidence made me feel overwhelmed, like I was already behind before the class even started.
+                        </p>
+                        <p>
+                          Then came second year—and our Embedded Systems course. We had to use the Arduino UNO for the whole semester. I felt that mix of fear and pressure, but also a quiet thought: If my friends learned it, maybe I can too.
+                        </p>
+                        <p>
+                          So I pushed myself.
+                        </p>
+                        <p>
+                          One night, I studied for almost five hours straight, just trying to understand how to light a single LED. That tiny bulb tested my patience. I searched about polarity, what a resistor actually does, and why certain wires must be placed in certain pins. Without a mentor, every step felt like guessing—but I kept trying.
+                        </p>
+                        <p>
+                          I used Tinkercad too, a simulator where we could practice Arduino virtually. It wasn’t easy at first, but slowly I learned both the software and hardware sides. Every error taught me something.
+                        </p>
+                        <p>
+                          Then the day of our group activity arrived.
+                        </p>
+                        <p>
+                          Instead of being nervous, I felt excited. After all the self-study I did, I wanted to share what I learned with my teammates. So I explained the basics, showed them how each part worked, and helped them see the logic behind both the real setup and the Tinkercad version.
+                        </p>
+                        <p>
+                          We were stressed, though—our laptop battery was at 18%, and my groupmate forgot the charger. We had to finish before it died. While our professor was still explaining, I quickly sketched a clean blueprint for our wiring. I wanted to avoid messy cables because too many wires make LEDs hard to see and everything looks chaotic.
+                        </p>
+                        <p>
+                          As soon as we ran to our table, we split roles:
+                        </p>
+                        <ul>
+                          <li>two members handled the Tinkercad prototype</li>
+                          <li>one worked on the code</li>
+                          <li>and I focused on the physical wiring</li>
+                          
+                        </ul>
+                        <p>
+                          The moment everything finally lit up—both the virtual and physical versions—we knew we did it. And surprisingly, we were the first group to finish.
+                        </p>
+                        <p>
+                          That day reminded me that fear doesn’t mean we’re incapable—it just means we’re about to learn something new. I realized that starting from zero is not a weakness. Sometimes it becomes the reason we work harder, stay curious, and grow beyond what we expected.
+                        </p>
+                        <p>
+                          If there’s something you’re scared to try, maybe it’s the thing that will show you how far you can go. Keep learning at your own pace—and trust that every small step still counts.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -383,8 +429,35 @@
 
               <!-- Contact Container -->
               <div id="contact" class="page-container d-none">
-                <h2 class="fs-3 fw-normal">Contact Me Page</h2>
-                <p>Feel free to reach out to me via email or phone!</p>
+                <h2 class="fs-3 fw-normal">Reach Me Anytime</h2>
+                <div class="row justify-content-center">
+                  <div class="col-md-12">
+
+                    <form id="contactForm" action="#" method="POST">
+                      <!-- Name -->
+                      <div class="mb-3">
+                        <label class="form-label">Your Name</label>
+                        <input type="text" class="form-control" name="name" required>
+                      </div>
+
+                      <!-- Email -->
+                      <div class="mb-3">
+                        <label class="form-label">Your Email</label>
+                        <input type="email" class="form-control" name="email" required>
+                      </div>
+
+                      <!-- Message -->
+                      <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" name="message" rows="5" required></textarea>
+                      </div>
+
+                      <!-- Submit -->
+                      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+
+                  </div>
+                </div>
               </div>
 
 
