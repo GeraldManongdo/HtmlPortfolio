@@ -21,7 +21,7 @@
     <section class="container d-flex flex-column min-vh-100 mt-5">
       <div class="row g-4">
         <!-- First Column -->
-        <article class="col-md-4 col-lg-3">
+        <article class="col-md-4 col-lg-3 ">
           <div
             class="p-3 bg-body-tertiary border rounded row flex-md-column flex-row"
           >
@@ -37,14 +37,35 @@
             <div class="col p-3">
               <div class="text-sm-center text-md-start text-lg-center">
                 <p class="fw-bold fs-5 m-1">Gerald P. Manongdo</p>
-                <span class="badge bg-primary text-center rounded-pill mr-2">
+                <span class="badge bg-primary text-center rounded-pill mr-2 px-3 fw-normal">
                   Web Developer
                 </span>
-                <span class="badge bg-primary text-center rounded-pill mr-2">
+                <span class="badge bg-primary text-center rounded-pill mr-2 px-3 fw-normal">
                   SEO Specialist
                 </span>
+              </div>
 
-                <div class="social-links fs-5 my-2">
+              <ul class="ps-0 lh-lg my-2" style="font-size: 13px; list-style: none">
+                <li class="list-group-item d-flex align-items-center gap-2">
+                  <i class="bi bi-calendar-event"></i>
+                  <span>September, 2005</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center gap-2">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Quezon City, Philippines</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center gap-2">
+                  <i class="bi bi-envelope"></i>
+                  <span>geraldmanongdo912@gmail.com</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center gap-2">
+                  <i class="bi bi-telephone"></i>
+                  <span>+63956214010</span>
+                </li>
+              </ul>
+
+              <div class="text-sm-center text-md-start text-lg-center">
+                <div class="social-links fs-5 my-2 w-90 d-flex justify-content-around">
                   <a
                     href="https://www.linkedin.com/in/gerald-manongdo-197348359/"
                     target="_blank"
@@ -70,24 +91,7 @@
                   </a>
                 </div>
               </div>
-              <ul class="ps-0 lh-lg" style="font-size: 13px; list-style: none">
-                <li class="list-group-item d-flex align-items-center gap-2">
-                  <i class="bi bi-calendar-event"></i>
-                  <span>September, 2005</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center gap-2">
-                  <i class="bi bi-geo-alt"></i>
-                  <span>Quezon City, Philippines</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center gap-2">
-                  <i class="bi bi-envelope"></i>
-                  <span>geraldmanongdo912@gmail.com</span>
-                </li>
-                <li class="list-group-item d-flex align-items-center gap-2">
-                  <i class="bi bi-telephone"></i>
-                  <span>+63956214010</span>
-                </li>
-              </ul>
+
               <a
                 href="files/Gerald Manongdo Resume.pdf"
                 download
@@ -96,6 +100,8 @@
               >
                 <i class="bi bi-download me-2"></i> Download CV
               </a>
+              
+
             </div>
           </div>
         </article>
@@ -126,16 +132,16 @@
                     <div
                       class="navbar-nav ms-auto nav-pills d-flex flex-lg-row flex-column gap-4 d-flex justify-content-center"
                     >
-                      <a class="nav-link active px-4 py-2" data-target="home"
+                      <a class="nav-link active px-4 py-2 pointer" data-target="home"
                         >Home</a
                       >
-                      <a class="nav-link px-4 py-2" data-target="projects"
+                      <a class="nav-link px-4 py-2 pointer" data-target="projects"
                         >Projects</a
                       >
-                      <a class="nav-link px-4 py-2" data-target="blogs"
+                      <a class="nav-link px-4 py-2 pointer" data-target="blogs"
                         >Blogs</a
                       >
-                      <a class="nav-link px-4 py-2" data-target="contact"
+                      <a class="nav-link px-4 py-2 pointer" data-target="contact"
                         >Contact Me</a
                       >
                     </div>
@@ -161,7 +167,7 @@
 
             <div class="container p-3">
               <div id="home" class="page-container">
-                <h2 class="fw-bold">About Me</h2>
+                <h2 class="fw-normal">About Me</h2>
                 <p>
                   Hello! I'm Gerald, a passionate web developer with a knack for
                   creating dynamic and user-friendly websites. With a strong
@@ -174,7 +180,7 @@
                   amazing together!
                 </p>
                 <div class="p-3">
-                  <h2 class="fw-bold">What I'm Doing?</h2>
+                  <h3 class="fw-normal fs-4">What I'm Doing?</h3>
                   <div class="container mt-3">
                     <div class="row g-3">
                       <div class="col-6">
@@ -191,25 +197,12 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="col-6">
                         <div class="card">
                           <div class="card-body row align-items-center">
                             <div class="col-sm-2 text-center">
-                              <i class="bi bi-browser-chrome fs-2"></i>
-                            </div>
-                            <div class="col-sm-10">
-                              <p class="card-text">
-                                Making visual content for brands, media, or digital platforms.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        <div class="card">
-                          <div class="card-body row align-items-center">
-                            <div class="col-sm-2 text-center">
-                              <i class="bi bi-browser-chrome fs-2"></i>
+                              <i class="bi bi-pencil-square fs-2"></i>
                             </div>
                             <div class="col-sm-10">
                               <p class="card-text">
@@ -219,11 +212,12 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6">
                         <div class="card">
                           <div class="card-body row align-items-center">
                             <div class="col-sm-2 text-center">
-                              <i class="bi bi-browser-chrome fs-2"></i>
+                              <i class="bi bi-graph-up-arrow fs-2"></i>
                             </div>
                             <div class="col-sm-10">
                               <p class="card-text">
@@ -233,10 +227,64 @@
                           </div>
                         </div>
                       </div>
+
+                      <div class="col-6">
+                        <div class="card">
+                          <div class="card-body row align-items-center">
+                            <div class="col-sm-2 text-center">
+                              <i class="bi bi-easel3 fs-2"></i>
+                            </div>
+                            <div class="col-sm-10">
+                              <p class="card-text">
+                                Making visual content for brands, media, or digital platforms.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                <section id="education-timeline" class="py-5">
+                  <h2 class=" mb-5 fw-normal">Educational Background</h2>
+                  <div class="container">
+                      <div class="timeline">
+
+                          <!-- COLLEGE -->
+                          <div class="timeline-item left">
+                              <div class="timeline-content">
+                                  <h4 class="fs-5">BSIT (2024–Present)</h4>
+                                  <h6 class="text-primary">National University</h6>
+                                  <p>I am currently taking BSIT specializing in Mobile & Internet Technologies. My college years helped me develop technical and professional skills in programming, web development, and project-based learning.</p>
+                              </div>
+                          </div>
+
+                          <!-- SENIOR HIGH -->
+                          <div class="timeline-item right">
+                              <div class="timeline-content">
+                                  <h4 class="fs-5">TVL-ICT (2022–2024)</h4>
+                                  <h6 class="text-primary">Lagro High School</h6>
+                                  <p>Focused on science, technology, engineering, and mathematics. Learned advanced research, basic programming, and laboratory work.</p>
+                              </div>
+                          </div>
+
+                          <!-- JUNIOR HIGH -->
+                          <div class="timeline-item left">
+                              <div class="timeline-content">
+                                  <h4 class="fs-5">Junior High School (2018–2022)</h4>
+                                  <h6 class="text-primary">Lagro High School</h6>
+                                  <p>Here I built my academic foundation and took part in various school activities that improved my discipline and teamwork.</p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+              </section>
               </div>
+
+              
+              <!-- Project Container -->
               <div id="projects" class="page-container d-none">
                 <h2>Projects Page</h2>
                 <div class="container d-flex justify-content-center">
