@@ -166,8 +166,8 @@
             </nav>
 
             <div class="container p-3">
-              <div id="home" class="page-container">
-                <h2 class="fw-normal">About Me</h2>
+              <div id="home" class="page-container py-2">
+                <h2 class="fw-normal fs-3">About Me</h2>
                 <p>
                   Hello! I'm Gerald, a passionate web developer with a knack for
                   creating dynamic and user-friendly websites. With a strong
@@ -247,7 +247,7 @@
                 </div>
 
                 <section id="education-timeline" class="py-5">
-                  <h2 class=" mb-5 fw-normal">Educational Background</h2>
+                  <h2 class=" mb-5 fw-normal fs-3">Educational Background</h2>
                   <div class="container">
                       <div class="timeline">
 
@@ -285,16 +285,109 @@
 
               
               <!-- Project Container -->
-              <div id="projects" class="page-container d-none">
-                <h2>Projects Page</h2>
-                <div class="container d-flex justify-content-center">
+              <div id="projects" class="page-container d-none py-2">
+                <h2 class="fw-normal fs-3">Github Calendar</h2>
+                <section class="container d-flex justify-content-center">
                   <img
                     src="http://ghchart.rshah.org/GeraldManongdo"
                     alt="GeraldManongdo's Github chart"
                     style="max-width: 100%; height: auto"
                   />
+                </section>
+
+                <section class="py-5">
+                  <h2 class="fw-normal fs-3">Projects </h2>
+
+                  <div class="border rounded-1">
+                    <div class="row g-0 bg-light position-relative">
+                      <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="Images/eskulayout.png" class="w-100" alt="...">
+                      </div>
+                      <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0">Eskuwelayout</h5>
+                        <div class="mb-3">
+                          <span class="badge bg-primary text-center rounded-pill mr-2 px-3 fw-normal">
+                            HTML
+                          </span>
+                          <span class="badge bg-primary text-center rounded-pill mr-2 px-3 fw-normal">
+                            CSS
+                          </span>
+                          <span class="badge bg-primary text-center rounded-pill mr-2 px-3 fw-normal">
+                            JavaScript
+                          </span>
+                        </div>
+                        <p>Ready to boost your self-study? Eskulayout is a powerful, student-focused note-taking app that streamlines learning and helps you excel academically.</p>
+                        <div>
+                          <a href="https://geraldmanongdo.github.io/Capstone-Eskuwelayout/" target="_blank" class="btn btn-primary me-2">Live Demo</a>
+                          <a href="https://github.com/GeraldManongdo/Capstone-Eskuwelayout" target="_blank" class="btn btn-secondary">Source Code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </section>
+              </div>
+
+
+              <!-- Blogs Container -->
+              <div id="blogs" class="page-container d-none">
+                <h2 class="fs-3 fw-normal">Blogs Page</h2>
+                <div class="container mt-5">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <!-- Blog Card -->
+                      <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                          <h5 class="card-title">My Blog Title</h5>
+                          <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna sed leo tempus, sit amet...
+                          </p>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogModal">
+                            View Blog
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Blog Modal -->
+                <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="blogModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="blogModalLabel">My Blog Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="https://via.placeholder.com/800x400" class="img-fluid mb-3" alt="Blog Image">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur interdum, 
+                          nisl nisi sollicitudin nibh, non facilisis enim lectus a nisi. Sed lacinia metus at ligula elementum, 
+                          vitae consequat nisl hendrerit. Morbi faucibus purus in libero fermentum, nec bibendum arcu tristique.
+                        </p>
+                        <p>
+                          Additional content goes here. You can put your entire blog post in this modal. 
+                          Make sure to use paragraphs and images to make it look nice.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Exit</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+
+
+              <!-- Contact Container -->
+              <div id="contact" class="page-container d-none">
+                <h2 class="fs-3 fw-normal">Contact Me Page</h2>
+                <p>Feel free to reach out to me via email or phone!</p>
+              </div>
+
+
             </div>
           </div>
         </article>
